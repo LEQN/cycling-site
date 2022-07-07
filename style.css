@@ -1,7 +1,7 @@
 body{
     margin: 0;
     background: #222;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -23,4 +23,13 @@ nav li{
     display: inline-block;
     margin-left: 70px;
     padding-top: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
