@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    background: #222;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    float: right;
+}
+
+nav ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+}
