@@ -52,6 +52,7 @@ nav ul li a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: white 1px solid;
 }
 
 .hero-text{
@@ -65,12 +66,58 @@ nav ul li a:hover{
     color: white;
 }
 
+.container{
+    width: 100vw;
+    height: auto;
+    margin-bottom: 36%;
+}
+#leftBox{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/locationhero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 20%;
+}
+
+#rightBox{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/defy.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 20%;
+}
+
+.btn{
+    color: #313131;
+    padding: 10px 24px;
+    font-size: 20px;
+    text-decoration: none;
+    background: #f1f1f1;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    background-color: orange;
+    color: white;
+}
+
 footer{
     background-color: rgba(0, 0, 0, 0.5);
     height: auto;
     width: 100vw;
     position: absolute;
     padding-top: 40px;
+    margin-top: 5%;
     color: white;
 }
 
@@ -130,8 +177,8 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 10px;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .main-content h2{
