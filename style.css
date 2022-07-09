@@ -154,6 +154,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: white 1px solid;
 }
 
 .locations-hero{
@@ -166,6 +167,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: white 1px solid;
 }
 
 .l-hero-text{
@@ -189,11 +191,14 @@ footer{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 5%;
 }
+
  img{
-    width: auto;
-    height: 600px;
+    width: 1000px;
+    height: auto;
  }
+
 .content-text{
     max-width: 900px;
     text-align: left;
