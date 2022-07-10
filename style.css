@@ -255,3 +255,67 @@ footer{
     max-width: 900px;
     text-align: left;
 }
+
+.road-banner{
+    width: 33.4%;
+    height: 100%;
+    float: left;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/defy.jpg);
+    background-position: center;
+    /* background-color: orangered; */
+    background-size: auto 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.mountain-banner{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/trek.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cyclo-banner{
+    width: 33.3%;
+    height: 100%;
+    float: right;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/focus.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bike-types{
+    color: white;
+}
+.bike-types:hover{
+    color: #00CCCC;
+}
+
+.bikescontainer{
+    width: 100vw;
+    height: 80vh;
+    /* margin-bottom: 16%; */
+}
+
+.road-bikes{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
